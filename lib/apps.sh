@@ -13,9 +13,6 @@ brew tap caskroom/fonts
 # Apps to install
 apps=(
   1password
-  adobe-creative-cloud
-  adobe-photoshop-lightroom
-  adobe-dng-converter
   atom
   couchbase-server-community
   dropbox
