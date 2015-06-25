@@ -5,11 +5,6 @@ cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
 
-# Run each script
-sh "lib/osx-defaults.sh"
-sh "lib/binaries.sh"
-sh "lib/apps.sh"
-
 # Symlink the profile
 function doIt() {
   rsync --exclude ".git/" --exclude ".DS_Store" --exclude "setup.sh" \
@@ -27,3 +22,8 @@ else
   fi;
 fi;
 unset doIt;
+
+# Run each script
+sh "lib/osx-defaults.sh"
+sh "lib/binaries.sh"
+sh "lib/apps.sh"
