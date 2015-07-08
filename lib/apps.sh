@@ -14,7 +14,6 @@ brew tap caskroom/fonts
 apps=(
   1password
   atom
-  couchbase-server-community
   dropbox
   evernote
   firefox
@@ -22,19 +21,14 @@ apps=(
   flux
   google-chrome
   google-chrome-canary
-  hipchat
-  intellij-idea-ce
-  java
   mailbox
   noizio
   sketch
   slack
-  sourcetree
   spotify
   sublime-text3
   transmission
   transmit
-  virtualbox
 )
 
 # Fonts list
