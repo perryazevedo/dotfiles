@@ -23,7 +23,7 @@ apps=(
   google-chrome-canary
   mailbox
   noizio
-  sketch
+  # sketch
   slack
   spotify
   sublime-text3
